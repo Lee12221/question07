@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세계의 미술작품</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+</head>
+<body>
+    <!-- #header>header^#slide+#contents+#footer>footer -->
+    <div id="header">
+        <header>
+            <!-- .logo+nav -->
+            <div class="logo">
+                <!-- a>img -->
+                <a href="#"></a><img src="img/logo.png" alt="로고">
+            </div>
+            <nav>
+                <!-- ul.gnb>li*4>a[href="#"]{버튼$}+ul.sub>li*4>a[href="#"]{s버튼$} -->
+                <ul class="gnb">
+                    <li>
+                        <a href="#">버튼1</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">버튼2</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">버튼3</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">버튼4</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- .nav_back -->
+            <div class="nav_back"></div>
+<!-- 백판 위치 여기여야 쉽ㅇ당!!! -->
+        </header>
+    </div>
+    <div id="slide">
+        <!-- ul>li*4>a[href="#"]>img[src="img/slide$.jpg" alt="슬라이드$"] -->
+        <ul>
+            <li><a href="#"><img src="img/slide1.jpg" alt="슬라이드1"></a></li>
+            <li><a href="#"><img src="img/slide2.jpg" alt="슬라이드2"></a></li>
+            <li><a href="#"><img src="img/slide3.jpg" alt="슬라이드3"></a></li>
+            <li><a href="#"><img src="img/slide1.jpg" alt="슬라이드1"></a></li>
+        </ul>
+    </div>
+    <div id="contents">
+        <!-- section*3>.title -->
+        <section>
+            
+            <div class="title">공지사항</div>
+            <!-- ul.notice>li*5>a[href="#"]>div.num+div.subject -->
+            <ul class="notice">
+                <li>
+                    <a href="#" class="open">
+                        <div class="num">2022 KAFA 대한민국 미술축전 '국제아트페어'	</div>
+                        <div class="subject">2022-08-22</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="open">
+                        <div class="num">'당산원치과의원' 서대표원장과 업무협약		</div>
+                        <div class="subject">2022-08-15</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="open">
+                        <div class="num">'2022년 비엔날레' 청년작가 특별전 참관		</div>
+                        <div class="subject">2022-07-20</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="open">
+                        <div class="num">강원도 산불 피해지역 미술인(회원) 돕기		</div>
+                        <div class="subject">2022-07-16</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="open">
+                        <div class="num">공공대출권 도입촉구를 위한 서명운동		</div>
+                        <div class="subject">2022-07-10</div>
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+        <section>
+            <div class="title">갤러리</div>
+            <!-- ul.gallery>li*3>a[href="#"]>img[src="img/gallery$$.jpg" alt="갤러리$"] -->
+            <ul class="gallery">
+                <li><a href="#"><img src="img/gallery01.jpg" alt="갤러리1"></a></li>
+                <li><a href="#"><img src="img/gallery02.jpg" alt="갤러리2"></a></li>
+                <li><a href="#"><img src="img/gallery03.jpg" alt="갤러리3"></a></li>
+            </ul>
+
+        </section>
+        <section>
+            <div class="title">배너</div>
+            <!-- ul.link>li>a[href="#"] -->
+            <ul class="banner">
+                <li><a href="#">
+                    <img src="img/banner.jpg" alt="배너">
+                </a></li>
+                <li><a href="#">
+                    ‘현대미술의 거장’ <br>
+                    데이비드 호크니展
+                </a></li>
+            </ul>
+        </ul>
+        </section>
+    </div>
+    <div id="footer">
+        <div class="f_logo logo">
+            <a href="#"><img src="img/logo.png" alt="풋터로고"></a>
+        <footer>
+            <div class="copy">
+                한국미술작품협회 | 주소 : 07995 서울시 양천구 목동서로 225 대한민국예술인센터 812호  <br>TEL : 02-744-8053.4 | FAX : 02-741-6240 | E-MAIL : exhibition@kaa.or.kr
+Copyrights 2010 재단법인 한국미술작품협회 All Rights Reserved.
+            </div>
+            <div class="f_right">
+                <div class="sns">
+                    <select name="" id="">
+                        <option value="">Facebook</option>
+                        <option value="">Instagram</option>
+                        <option value="">Twitter</option>
+                    </select>
+                </div>
+            </div>
+        </footer>
+    </div>
+  <!-- #popup>.popup_body>h3+p+button.close -->
+  <div id="popup">
+    <div class="popup_body">
+        <h3>
+            제목 : 2022 KAFA 대한민국 미술축전 국제아트페어 작가모집
+        </h3>
+        <p>
+            안녕하세요. 한국미술작품협회입니다.
+            2022KAFA대한민국미술축전 국제아트페어를 일산 킨텍스에서 개최합니다. 이번 2019KAFA 대한민국 미술축전 국제아트페어는 순수 국제아트페어로서 권위와 고품격의 아트페어를 지향하며 서울신문과 함께 진행합니다, 많은 관심과 참여 부탁드리며, 아래를 참조하여 참가신청을 진행하시기 바랍니다.
+            
+            ◆ 일 시 : 2022년 11월 20일(수) ~ 24일(일)
+            ◆ 전시장소 : 일산 킨텍스(KINTEX 1전시장 3Hall)
+            ◆ 자격요건 : 국내외 미술인
+            ◆ 참가신청 : 10월 4일(금) 오후 5시 선착순마감
+            ◆ 제출방법 : 웹하드 (www.webhard.co.kr) 아이디 : kafa2019, 비밀번호  : 1234
+             ①인물사진 ②작품이미지 3점 ③신청서 및 동의서(소정양식)
+            ◆ 참가비용 : 150만원 (2019년 10월 4일 까지)
+            해당 일까지 부스비를 완납하지 않은 작가 분은 부스배정에서 제외되며 참가 불허됨.
+            ◆ 지원사항 : 1부스(2.4x3.6x2.4m), 종합도록1부, 입장권 100매
+            ◆ 문 의 : 02-2655-3455
+            ◆ 주 최 : (재)한국미술작품협회, 킨텍스 
+        </p>
+        <button class="close">닫기</button>
+    </div>
+  </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
